@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+
+# Project work and run logs (created at runtime)
+/projects/
+/inbox/
+studio/runs/
+studio/sessions.json
+
+# Build & system
+node_modules/
+.next/
+.DS_Store
+*.log
+/.gemini/

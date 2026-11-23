@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kantor",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "office",
+        "run",
+        "dev"
+      ],
+      "port": 3210
+    },
+    {
+      "name": "kantor-prod",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "office",
+        "run",
+        "prod"
+      ],
+      "port": 3210
+    }
+  ]
+}

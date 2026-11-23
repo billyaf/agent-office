@@ -1,0 +1,496 @@
+{
+  "divisions": {
+    "design": {
+      "name": "Design Studio",
+      "color": "#3b7fcd"
+    },
+    "tiktok": {
+      "name": "TikTok Studio",
+      "color": "#E63946"
+    },
+    "adobestock": {
+      "name": "Adobe Stock Studio",
+      "color": "#e4572e"
+    },
+    "magnific": {
+      "name": "Magnific Studio",
+      "color": "#7c3aed"
+    },
+    "explainer": {
+      "name": "Explainer3D Studio",
+      "color": "#457B9D"
+    }
+  },
+  "agents": [
+    {
+      "id": "project-manager",
+      "name": "Polaris",
+      "title": "Project Manager",
+      "short": "Polaris",
+      "meaning": "Bintang utara, penunjuk arah para pelaut: ia menentukan arah setiap proyek.",
+      "role": "Brief & riset",
+      "division": "design"
+    },
+    {
+      "id": "copywriter",
+      "name": "Lyra",
+      "title": "Copywriter",
+      "short": "Lyra",
+      "meaning": "Rasi lira (alat musik penyair): kata-kata yang enak dibaca.",
+      "role": "Teks & caption",
+      "division": "design"
+    },
+    {
+      "id": "senior-graphic-designer",
+      "name": "Pictor",
+      "title": "Senior Graphic Designer",
+      "short": "Pictor",
+      "meaning": "Latin untuk pelukis, juga nama rasi bintang \"Sang Pelukis\".",
+      "role": "Desain HTML → PNG",
+      "division": "design"
+    },
+    {
+      "id": "visual-qa",
+      "name": "Lynx",
+      "title": "Visual QA Specialist",
+      "short": "Lynx",
+      "meaning": "Rasi yang hanya terlihat oleh mata setajam lynx: tidak ada detail yang lolos.",
+      "role": "Pengawas estetika",
+      "division": "design"
+    },
+    {
+      "id": "digital-asset-manager",
+      "name": "Atlas",
+      "title": "Digital Archiver",
+      "short": "Atlas",
+      "meaning": "Atlas adalah himpunan peta, juga bulan Saturnus: menjaga setiap berkas tetap tertata.",
+      "role": "Penamaan & arsip konten",
+      "division": "design"
+    },
+    {
+      "id": "tiktok-strategist",
+      "name": "Nova",
+      "title": "Content Strategist",
+      "short": "Nova",
+      "meaning": "Bintang baru yang tiba-tiba bersinar terang: ide yang meledak di FYP.",
+      "role": "Ide & riset tren",
+      "division": "tiktok"
+    },
+    {
+      "id": "tiktok-scriptwriter",
+      "name": "Fabula",
+      "title": "Scriptwriter",
+      "short": "Fabula",
+      "meaning": "Latin untuk cerita: merangkai keresahan jadi 10 ketukan yang bikin bertahan.",
+      "role": "Script 10 ketukan",
+      "division": "tiktok"
+    },
+    {
+      "id": "tiktok-motion-designer",
+      "name": "Cometa",
+      "title": "Motion Designer",
+      "short": "Cometa",
+      "meaning": "Latin untuk komet: benda langit yang selalu bergerak dan meninggalkan jejak.",
+      "role": "Storyboard, VO & render",
+      "division": "tiktok"
+    },
+    {
+      "id": "tiktok-qc",
+      "name": "Argus",
+      "title": "Video QC Editor",
+      "short": "Argus",
+      "meaning": "Penjaga bermata seratus dalam mitologi, juga nama asteroid: tidak ada frame yang luput.",
+      "role": "QC frame & gerak",
+      "division": "tiktok"
+    },
+    {
+      "id": "tiktok-publisher",
+      "name": "Mercurius",
+      "title": "Publishing Coordinator",
+      "short": "Mercurius",
+      "meaning": "Dewa pembawa pesan dan planet tercepat: membawa video ke penonton.",
+      "role": "Paket upload & status",
+      "division": "tiktok"
+    },
+    {
+      "id": "stock-researcher",
+      "name": "Antares",
+      "title": "Market Researcher",
+      "short": "Antares",
+      "meaning": "Jantung Scorpius, bintang raksasa merah yang mudah ditemukan: tema yang paling dicari pembeli.",
+      "role": "Riset terlaris & rencana",
+      "division": "adobestock"
+    },
+    {
+      "id": "stock-generator",
+      "name": "Altair",
+      "title": "Vector Generator Artist",
+      "short": "Altair",
+      "meaning": "Bintang terang yang berputar sangat cepat: generator yang mencetak puluhan vektor sekali jalan.",
+      "role": "Generator SVG & preview",
+      "division": "adobestock"
+    },
+    {
+      "id": "stock-curator",
+      "name": "Spica",
+      "title": "Metadata & QC Curator",
+      "short": "Spica",
+      "meaning": "Bulir gandum di tangan Virgo, simbol panen: memilah aset yang layak dipanen jadi pendapatan.",
+      "role": "QC, metadata & jadwal upload",
+      "division": "adobestock"
+    },
+    {
+      "id": "magnific-researcher",
+      "name": "Capella",
+      "title": "Market Researcher",
+      "short": "Capella",
+      "meaning": "Bintang kambing kecil di rasi Auriga, terang di langit utara: menemukan celah pasar Magnific.",
+      "role": "Riset pasar & rencana",
+      "division": "magnific"
+    },
+    {
+      "id": "magnific-artist",
+      "name": "Castor",
+      "title": "Vector Artist",
+      "short": "Castor",
+      "meaning": "Si kembar pertama Gemini: membuat motif yang serupa temanya tapi tak pernah kembar strukturnya.",
+      "role": "SVG orisinal",
+      "division": "magnific"
+    },
+    {
+      "id": "magnific-exporter",
+      "name": "Pollux",
+      "title": "Export & Metadata Engineer",
+      "short": "Pollux",
+      "meaning": "Si kembar kedua Gemini: mengubah setiap SVG menjadi pasangan EPS + JPG yang lolos syarat.",
+      "role": "Ekspor EPS, JPG & CSV",
+      "division": "magnific"
+    },
+    {
+      "id": "explainer-researcher",
+      "name": "Vega",
+      "title": "Topic & Fact Researcher",
+      "short": "Vega",
+      "meaning": "Bintang acuan para astronom untuk mengukur terang bintang lain: setiap angka diukur ke sumber primer.",
+      "role": "Konsep & verifikasi fakta",
+      "division": "explainer"
+    },
+    {
+      "id": "explainer-scriptwriter",
+      "name": "Orion",
+      "title": "Scriptwriter",
+      "short": "Orion",
+      "meaning": "Pemburu dengan sabuk tiga bintang: alur tiga langkah yang menahan penonton sampai payoff.",
+      "role": "Naskah & audit retensi",
+      "division": "explainer"
+    },
+    {
+      "id": "explainer-3d-director",
+      "name": "Sirius",
+      "title": "3D Scene Director",
+      "short": "Sirius",
+      "meaning": "Bintang paling terang di langit malam: dunia 3D realistis yang membuat penonton berhenti scroll.",
+      "role": "Scene 3D & storyboard",
+      "division": "explainer"
+    },
+    {
+      "id": "explainer-audio-engineer",
+      "name": "Rigel",
+      "title": "Audio & Render Engineer",
+      "short": "Rigel",
+      "meaning": "Kaki Orion yang paling bercahaya: suara, musik, dan render yang menopang seluruh episode.",
+      "role": "Suara, musik & render",
+      "division": "explainer"
+    },
+    {
+      "id": "explainer-reviewer",
+      "name": "Deneb",
+      "title": "Video Reviewer",
+      "short": "Deneb",
+      "meaning": "Ekor angsa Cygnus, terlihat dari jauh sekali: memeriksa video seperti penonton yang baru lewat FYP.",
+      "role": "Review frame & loudness",
+      "division": "explainer"
+    }
+  ],
+  "meetingRooms": [
+    "meeting-1"
+  ],
+  "building": {
+    "name": "Atrium",
+    "tagline": "Menara kerja agen AI",
+    "_info": "Satu gedung untuk seluruh pekerjaan pemilik; satu lantai = satu tim dengan konsep dan alur kerjanya sendiri. Lantai Dasar dibagi dinding jadi dua ruang (Adobe Stock, Magnific) dengan panel masing-masing; Lantai 1 desain Instagram Demo, Lantai 2 TikTok @kanal.demo, Lantai 3 Explainer3D. `level` = tingkat lantai di gedung 3D; beberapa ruang boleh berbagi satu level.",
+    "floors": [
+      {
+        "id": "adobestock",
+        "label": "Lantai Dasar",
+        "name": "Adobe Stock",
+        "sub": "Ruang A · aset vektor untuk Adobe Stock Contributor",
+        "level": 0,
+        "status": "aktif",
+        "type": "stock",
+        "client": "adobestock"
+      },
+      {
+        "id": "magnific",
+        "label": "Lantai Dasar",
+        "name": "Magnific",
+        "sub": "Ruang B · aset vektor untuk Magnific (ex-Freepik) Contributor",
+        "level": 0,
+        "status": "aktif",
+        "type": "magnific",
+        "client": "magnific"
+      },
+      {
+        "id": "design",
+        "label": "Lantai 1",
+        "name": "Design Studio",
+        "status": "aktif",
+        "type": "konten",
+        "client": "klien-demo",
+        "level": 1,
+        "types": [
+          "konten",
+          "konten-motion"
+        ]
+      },
+      {
+        "id": "tiktok",
+        "label": "Lantai 2",
+        "name": "TikTok Studio",
+        "sub": "@kanal.demo",
+        "status": "aktif",
+        "type": "tiktok",
+        "client": "kanaldemo",
+        "level": 2
+      },
+      {
+        "id": "explainer",
+        "label": "Lantai 3",
+        "name": "Explainer3D Studio",
+        "sub": "Video explainer teknologi 3D (TikTok/Reels) Explainer3D",
+        "level": 3,
+        "status": "aktif",
+        "type": "explainer",
+        "client": "explainer"
+      },
+      {
+        "id": "kinerja",
+        "label": "Lantai 4",
+        "name": "Laporan Kinerja",
+        "status": "rencana",
+        "level": 4
+      }
+    ]
+  },
+  "brands": [
+    {
+      "id": "demo",
+      "name": "Merek Demo",
+      "dir": "studio/brands/demo",
+      "floor": "design",
+      "media": {
+        "feed": "studio/clients/klien-demo/gaya.md",
+        "reels-motion": "studio/brands/demo/media/reels-motion.md"
+      }
+    },
+    {
+      "id": "explainer",
+      "name": "Explainer3D",
+      "dir": "studio/brands/explainer",
+      "floor": "explainer",
+      "media": {
+        "video": "skill explainer"
+      }
+    },
+    {
+      "id": "kanaldemo",
+      "name": "@kanal.demo",
+      "dir": "studio/brands/kanaldemo",
+      "floor": "tiktok",
+      "media": {
+        "video": "skill produksi-video-kanaldemo"
+      }
+    }
+  ],
+  "_layanan": "Katalog jasa yang bisa dipinjam lantai lain lewat tombol 'Minta bantuan' di kartu proyek (perintah /bantuan). status: aktif / menyusul (alasan di 'catatan'). untuk: jenis proyek peminta. alur: layanan yang dipakai lewat alur penuh, bukan tombol. Hasil di projects/<slug>/layanan/<id permintaan>-<layanan>/ (+ laporan.md), kecuali 'keluaran' menyebut tempat lain. Tampilan selalu mengikuti merek proyek peminta.",
+  "layanan": [
+    {
+      "id": "motion-2d",
+      "name": "Motion graphic 2D",
+      "floor": "tiktok",
+      "agents": [
+        "tiktok-motion-designer",
+        "tiktok-qc"
+      ],
+      "hasil": "Still storyboard + MP4 9:16",
+      "untuk": [
+        "konten"
+      ],
+      "status": "aktif",
+      "alur": "konten-motion",
+      "opus": true
+    },
+    {
+      "id": "cek-fakta",
+      "name": "Cek fakta",
+      "floor": "explainer",
+      "agents": [
+        "explainer-researcher"
+      ],
+      "hasil": "Tabel klaim: benar / perlu koreksi / tidak terverifikasi, dengan sumber primer",
+      "input": "Klaim atau angka yang dicek, atau sebut file (mis. copy.md, 01_script.md)",
+      "untuk": [
+        "konten",
+        "konten-motion",
+        "tiktok",
+        "stock",
+        "magnific"
+      ],
+      "status": "aktif"
+    },
+    {
+      "id": "riset-tren",
+      "name": "Riset tren",
+      "floor": "tiktok",
+      "agents": [
+        "tiktok-strategist"
+      ],
+      "hasil": "Tren, hook, dan format yang sedang jalan untuk topik itu",
+      "input": "Topik atau episode yang ingin diriset",
+      "untuk": [
+        "explainer",
+        "konten-motion"
+      ],
+      "status": "aktif"
+    },
+    {
+      "id": "thumbnail",
+      "name": "Thumbnail / cover",
+      "floor": "design",
+      "agents": [
+        "senior-graphic-designer"
+      ],
+      "hasil": "Cover PNG 1080×1920 (zona aman 3:4) dalam merek peminta + sumber HTML",
+      "input": "Judul di cover, nuansa, still atau foto yang boleh dipakai",
+      "untuk": [
+        "tiktok",
+        "explainer"
+      ],
+      "status": "aktif",
+      "opus": true
+    },
+    {
+      "id": "ekspor-magnific",
+      "name": "Ekspor silang ke Magnific",
+      "floor": "magnific",
+      "agents": [
+        "magnific-exporter"
+      ],
+      "hasil": "EPS + JPG + CSV Magnific dari SVG campaign ini, file _review dicek",
+      "input": "Opsional: file yang dikecualikan, atau catatan keyword",
+      "untuk": [
+        "stock"
+      ],
+      "status": "aktif",
+      "keluaran": "~/work/marketplace_project/campaigns/dari-adobestock/<folder campaign>/"
+    },
+    {
+      "id": "still-3d",
+      "name": "Objek / ikon 3D",
+      "floor": "explainer",
+      "agents": [
+        "explainer-3d-director"
+      ],
+      "hasil": "PNG transparan objek 3D glossy",
+      "untuk": [
+        "konten",
+        "konten-motion",
+        "tiktok",
+        "stock"
+      ],
+      "status": "menyusul",
+      "catatan": "Alat still Explainer3D hanya merender episode di repo video_project (JPG berlatar). Perlu alat render objek transparan di luar repo itu."
+    },
+    {
+      "id": "voice-over",
+      "name": "Voice over",
+      "floor": "tiktok",
+      "agents": [
+        "tiktok-motion-designer"
+      ],
+      "hasil": "MP3 VO dari naskah",
+      "untuk": [
+        "konten-motion",
+        "explainer"
+      ],
+      "status": "menyusul",
+      "biaya": "vo-demo",
+      "catatan": "Akun dan suara ElevenLabs belum diputuskan pemilik."
+    },
+    {
+      "id": "motion-3d",
+      "name": "Motion 3D",
+      "floor": "explainer",
+      "agents": [
+        "explainer-3d-director",
+        "explainer-audio-engineer",
+        "explainer-reviewer"
+      ],
+      "hasil": "Still 3D + MP4 dalam merek peminta",
+      "untuk": [
+        "konten"
+      ],
+      "status": "menyusul",
+      "catatan": "Menunggu alat still 3D di atas."
+    }
+  ],
+  "_biaya": "Perintah berbayar. Hanya diberikan ke run yang dimulai dari persetujuan checkpoint yang disebut di gerbangBiaya. perintah kosong = akun belum diputuskan pemilik: orkestrator berhenti dan bertanya.",
+  "biaya": {
+    "vo-kanaldemo": {
+      "label": "VO ElevenLabs @kanal.demo",
+      "perintah": [
+        "Bash(npm --prefix ~/work/shortvideo_project run vo:*)",
+        "Bash(npm --prefix ~/work/shortvideo_project run produce:*)"
+      ]
+    },
+    "suara-explainer": {
+      "label": "VO, SFX, musik ElevenLabs + render Explainer3D",
+      "perintah": [
+        "Bash(npm --prefix ~/work/explainer_project run voice:*)",
+        "Bash(npm --prefix ~/work/explainer_project run sfx:*)",
+        "Bash(npm --prefix ~/work/explainer_project run music:*)",
+        "Bash(npm --prefix ~/work/explainer_project run render:*)"
+      ]
+    },
+    "vo-demo": {
+      "label": "VO ElevenLabs untuk konten Demo",
+      "perintah": [],
+      "catatan": "Akun dan suara belum diputuskan pemilik (studio/brands/demo/media/reels-motion.md)."
+    }
+  },
+  "gerbangBiaya": {
+    "tiktok": {
+      "setelahSetuju": 1,
+      "cp": "CP script",
+      "biaya": "vo-kanaldemo"
+    },
+    "explainer": {
+      "setelahSetuju": 2,
+      "cp": "CP storyboard",
+      "biaya": "suara-explainer"
+    },
+    "konten-motion": {
+      "setelahSetuju": 1,
+      "cp": "CP storyboard",
+      "biaya": "vo-demo"
+    }
+  },
+  "merekJenis": {
+    "konten": "demo",
+    "konten-motion": "demo",
+    "tiktok": "kanaldemo",
+    "explainer": "explainer",
+    "stock": null,
+    "magnific": null
+  }
+}

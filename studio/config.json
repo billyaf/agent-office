@@ -1,0 +1,57 @@
+{
+  "archive": {
+    "rcloneRemote": "drive",
+    "drivePath": "Atrium/Proyek",
+    "exclude": [
+      "node_modules/**",
+      ".next/**",
+      "dist/**",
+      "build/**",
+      ".expo/**",
+      ".turbo/**",
+      ".cache/**",
+      ".DS_Store",
+      "*.tmp",
+      "05_render/tmp/**"
+    ]
+  },
+  "web": {
+    "_info": "Model orkestrator saat perintah dijalankan dari kantor virtual. Model tiap agen diatur di frontmatter .claude/agents/*.md (model: opus|sonnet|haiku).",
+    "orchestratorModel": "sonnet",
+    "addDirs": [
+      "~/work"
+    ],
+    "_addDirs": "Folder di luar repo yang boleh dibaca/ditulis agen dari web."
+  },
+  "clients": {
+    "klien-demo": {
+      "name": "Klien Demo",
+      "workDir": "~/work/design_project/contoh-konten",
+      "_info": "Folder kerja konten per proyek: <workDir>/<slug>/ (PNG, HTML, canva/)."
+    },
+    "kanaldemo": {
+      "name": "@kanal.demo (TikTok)",
+      "workDir": "~/work/shortvideo_project/out",
+      "project": "~/work/shortvideo_project",
+      "_info": "Hasil per video: <workDir>/<NNN-slug>/ (mp4, storyboard.png, qc/). Nama folder diambil dari projects/<slug>/video.json."
+    },
+    "explainer": {
+      "name": "Explainer3D (TikTok/Reels)",
+      "workDir": "~/work/explainer_project/episodes",
+      "project": "~/work/explainer_project",
+      "_info": "Satu proyek = satu episode: <workDir>/<epNNN-slug>/ (04_preview still, 05_render mp4). Nama folder dari projects/<slug>/work.json."
+    },
+    "adobestock": {
+      "name": "Adobe Stock Contributor",
+      "workDir": "~/work/stock_project/campaigns",
+      "project": "~/work/stock_project",
+      "_info": "Satu proyek = satu campaign: <workDir>/<NN-slug>/ (upload/, preview/, metadata.csv). Nama folder dari projects/<slug>/work.json."
+    },
+    "magnific": {
+      "name": "Magnific Contributor",
+      "workDir": "~/work/marketplace_project/campaigns",
+      "project": "~/work/marketplace_project",
+      "_info": "Satu proyek = satu campaign: <workDir>/<slug>/ (svg/, preview/, upload/ hasil pipeline). Nama folder dari projects/<slug>/work.json."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_info": "Istilah baku dan hashtag klien, dipakai skill cek-copy.",
+  "istilah": [
+    {
+      "salah": "e-mail",
+      "benar": "surel",
+      "sumber": "contoh"
+    }
+  ],
+  "hashtag": [
+    "#KlienDemo"
+  ]
+}
